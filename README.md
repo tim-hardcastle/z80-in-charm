@@ -20,7 +20,7 @@ Labels are any string preceded by @.
 
 Example code to compute as much of the Fibonacci sequence as will fit in eight bits:
 
-`ld a, #01
+ld a, #01
 
 ld (#0001), a
 
@@ -50,7 +50,7 @@ ld a, l
 
 cp #0d
 
-jp nz, @loop`
+jp nz, @loop
 
 ## The Charm frontend
 
