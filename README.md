@@ -43,14 +43,14 @@ jp nz, @loop
 
 Commands are:
 
-ex <string> : applies the given line to the machine state, eg ex "ld a, #05"
+`ex <string>` : applies the given line to the machine state, eg ex "ld a, #05"
 
-load <filename> : loads a z80 file
+`load <filename>` : loads a z80 file
 
-reset : resets the memory, stack, registers, etc.
+`reset` : resets the memory, stack, registers, etc.
   
-run : runs the loaded file
+`run` : runs the loaded file
 
-step : takes one step through the instructions in the loaded file
+`step` : takes one step through the instructions in the loaded file
 
-show : shows the machine state
+`show` : shows the machine state
