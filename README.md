@@ -12,6 +12,8 @@ Flags : zero, negative, carry
 
 Numbers are given as two- or four-digit lower-case hexadecimal preceeded by a #, e.g. #e6, #50f4.
 
+As usual in Z80 assembler, parentheses around a number indicate that it is an address.
+
 Labels are any string preceded by @.
 
 Example code to compute as much of the Fibonacci sequence as will fit in eight bits:
@@ -37,14 +39,14 @@ jp nz, @loop
 
 Commands are:
 
-show : shows the machine state
-
 ex <string> : applies the given line to the machine state, eg ex "ld a, #05"
 
 load <filename> : loads a z80 file
 
+reset : resets the memory, stack, registers, etc.
+  
 run : runs the loaded file
 
 step : takes one step through the instructions in the loaded file
 
-reset : resets the memory, stack, registers, etc.
+show : shows the machine state
