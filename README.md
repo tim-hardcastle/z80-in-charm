@@ -1,6 +1,6 @@
-# z80-in-charm
+# Z80-in-charm
 
-A toy X80 interpreter. "Interpreter" because the assembly doesn't get converted into bytecode and put into memory somewhere, it's just run against the emulated machine state.
+A toy Z80 interpreter. "Interpreter" because the assembly doesn't get converted into bytecode and put into memory somewhere, it's just run against the emulated machine state.
 
 And "toy" because it implements only the more popular subset of the language, as follows.
 
