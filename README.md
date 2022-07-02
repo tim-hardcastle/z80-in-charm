@@ -4,7 +4,7 @@ A toy X80 interpreter. "Interpreter" because the assembly doesn't get converted 
 
 And "toy" because it implements only the more popular subset of the language, as follows.
 
-##Z80 specification
+## Z80 specification
 
 Operations : ld, push, pop, add, adc, sub, sbc, cmp, neg, nop, inc, dec, jp
 Registers : af, bc, de, hl
@@ -33,7 +33,7 @@ ld a, l
 cp #0d
 jp nz, @loop
 
-##The Charm frontend
+## The Charm frontend
 
 Commands are:
 
