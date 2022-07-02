@@ -7,7 +7,9 @@ And "toy" because it implements only the more popular subset of the language, as
 ## Z80 specification
 
 Operations : ld, push, pop, add, adc, sub, sbc, cmp, neg, nop, inc, dec, jp
+
 Registers : af, bc, de, hl
+
 Flags : zero, negative, carry
 
 Numbers are given as two- or four-digit lower-case hexadecimal preceeded by a #, e.g. #e6, #50f4.
