@@ -6,7 +6,7 @@ And "toy" because it implements only the more popular subset of the language, as
 
 ## Z80 specification
 
-Operations : ld, push, pop, add, adc, sub, sbc, cmp, neg, nop, inc, dec, jp
+Operations : ld, push, pop, add, adc, sub, sbc, cp, neg, nop, inc, dec, jp
 
 Registers : af, bc, de, hl
 
