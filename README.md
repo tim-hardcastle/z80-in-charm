@@ -51,6 +51,6 @@ Commands are:
   
 `run` : runs the loaded file
 
-`step` : takes one step through the instructions in the loaded file
-
 `show` : shows the machine state
+
+`step` : takes one step through the instructions in the loaded file
